@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{8A481CE0-2E02-4439-AE9B-827FC8716276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDM.FrontWeb", "Web\CDM.FrontWeb\CDM.FrontWeb.csproj", "{6B1329F9-3E23-4601-B3D8-487EB51C3A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDM.BackWeb", "Web\CDM.BackWeb\CDM.BackWeb.csproj", "{A538052A-FE43-44C1-ABA9-C53AA0AA4A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDM.WebAPI", "Web\CDM.WebAPI\CDM.WebAPI.csproj", "{05EC8E80-352E-4592-B1BF-12CCA6DAB258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoNise", "ScoffiedLibrary\AutoNise.csproj", "{03A597E8-A4B1-4C2E-822E-AA1E357545A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDM", "CDM\CDM.csproj", "{ECD16B0F-8E76-46CB-81E6-60E66725F26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDM.AngularWeb", "..\CorpDirectMandate\Web\CDM.AngularWeb\CDM.AngularWeb.csproj", "{0AB036DA-F963-41AA-B195-18FB7A577231}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B1329F9-3E23-4601-B3D8-487EB51C3A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1329F9-3E23-4601-B3D8-487EB51C3A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1329F9-3E23-4601-B3D8-487EB51C3A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1329F9-3E23-4601-B3D8-487EB51C3A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A538052A-FE43-44C1-ABA9-C53AA0AA4A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A538052A-FE43-44C1-ABA9-C53AA0AA4A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A538052A-FE43-44C1-ABA9-C53AA0AA4A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A538052A-FE43-44C1-ABA9-C53AA0AA4A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EC8E80-352E-4592-B1BF-12CCA6DAB258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EC8E80-352E-4592-B1BF-12CCA6DAB258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EC8E80-352E-4592-B1BF-12CCA6DAB258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EC8E80-352E-4592-B1BF-12CCA6DAB258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A597E8-A4B1-4C2E-822E-AA1E357545A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A597E8-A4B1-4C2E-822E-AA1E357545A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A597E8-A4B1-4C2E-822E-AA1E357545A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A597E8-A4B1-4C2E-822E-AA1E357545A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD16B0F-8E76-46CB-81E6-60E66725F26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD16B0F-8E76-46CB-81E6-60E66725F26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD16B0F-8E76-46CB-81E6-60E66725F26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD16B0F-8E76-46CB-81E6-60E66725F26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB036DA-F963-41AA-B195-18FB7A577231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB036DA-F963-41AA-B195-18FB7A577231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB036DA-F963-41AA-B195-18FB7A577231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB036DA-F963-41AA-B195-18FB7A577231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B1329F9-3E23-4601-B3D8-487EB51C3A2D} = {8A481CE0-2E02-4439-AE9B-827FC8716276}
+		{A538052A-FE43-44C1-ABA9-C53AA0AA4A92} = {8A481CE0-2E02-4439-AE9B-827FC8716276}
+		{05EC8E80-352E-4592-B1BF-12CCA6DAB258} = {8A481CE0-2E02-4439-AE9B-827FC8716276}
+		{0AB036DA-F963-41AA-B195-18FB7A577231} = {8A481CE0-2E02-4439-AE9B-827FC8716276}
+	EndGlobalSection
+EndGlobal
