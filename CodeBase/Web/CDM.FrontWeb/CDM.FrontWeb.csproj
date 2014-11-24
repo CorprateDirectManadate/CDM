@@ -209,6 +209,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\AutoNise.dll" />
     <Content Include="Content\ajax\cruise-slideshow-popup.html" />
     <Content Include="Content\ajax\slideshow-popup.html" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -473,7 +474,7 @@
     <Content Include="Scripts\angular-touch.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
-    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\routes\app.js" />
     <Content Include="Content\components\flexslider\fonts\flexslider-icon.eot" />
     <Content Include="Content\components\flexslider\fonts\flexslider-icon.ttf" />
     <Content Include="Content\components\flexslider\fonts\flexslider-icon.woff" />
@@ -1302,7 +1303,6 @@
     <Folder Include="app\views\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\routes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
