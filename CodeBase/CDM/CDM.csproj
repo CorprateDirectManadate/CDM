@@ -58,6 +58,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,11 +69,16 @@
   <ItemGroup>
     <Compile Include="DependencyRegistrar.cs" />
     <Compile Include="Domain\Currency.cs" />
+    <Compile Include="Domain\Organization.cs" />
     <Compile Include="Domain\PersonalInformation.cs" />
     <Compile Include="Domain\UserGroup.cs" />
+    <Compile Include="Logic\AuditService.cs" />
     <Compile Include="Logic\CurrencyService.cs" />
+    <Compile Include="Logic\UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\IAuditService.cs" />
     <Compile Include="Service\ICurrencyService.cs" />
+    <Compile Include="Service\IUserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

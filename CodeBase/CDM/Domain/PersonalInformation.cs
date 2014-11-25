@@ -29,6 +29,9 @@ namespace CDM.Domain
 
             }
         }
+
+        public virtual Organization Organization { get; set; }
+        public virtual int? OrganizationId { get; set; }
     }
 
     class PersonalInformationMap : BaseEntityMap<PersonalInformation, long>
@@ -48,6 +51,11 @@ namespace CDM.Domain
        
 
             this.Property<int?>(x => x.UserGroupId, mp => { mp.Column("UserGroupId"); });
+
+            this.Property<int?>(x => x.OrganizationId, mp => { mp.Column("OrganizationId"); });
+
+            this.ManyToOne<Organization>(x => x.Organization, mp => { mp.Lazy(LazyRelation.Proxy); mp.Update(false); mp.Insert(false); mp.Column("OrganizationId"); });
+
         }
     }
 
