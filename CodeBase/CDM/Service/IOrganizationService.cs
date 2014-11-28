@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace CDM.Service
 {
-    public interface IUserService
+    public interface IOrganizationService
     {
-        string CreateUser(PersonalInformation pInfo, string password);
+        void CreateOrganization(Organization organization);
     }
 }

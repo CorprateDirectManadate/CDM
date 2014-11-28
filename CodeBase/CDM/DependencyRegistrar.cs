@@ -21,7 +21,9 @@ namespace CDM
       {
           
           builder.RegisterType<CurrencyService>().As<ICurrencyService>().InstancePerLifetimeScope();
-      
+          builder.RegisterType<UserService>().As<IUserService>().InstancePerLifetimeScope();
+          builder.RegisterType<OrganizationService>().As<IOrganizationService>().InstancePerLifetimeScope();
+
       
       }
 

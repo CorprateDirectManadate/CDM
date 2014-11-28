@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{45B4B9
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDM.Tests", "CDM.Tests\CDM.Tests.csproj", "{52BE179D-3D3A-47BB-86FB-E7EDF372BAF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{0AB036DA-F963-41AA-B195-18FB7A577231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB036DA-F963-41AA-B195-18FB7A577231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB036DA-F963-41AA-B195-18FB7A577231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BE179D-3D3A-47BB-86FB-E7EDF372BAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BE179D-3D3A-47BB-86FB-E7EDF372BAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BE179D-3D3A-47BB-86FB-E7EDF372BAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BE179D-3D3A-47BB-86FB-E7EDF372BAF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

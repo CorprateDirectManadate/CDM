@@ -36,6 +36,7 @@ namespace CDM.Logic
                 _personalInformation.Refresh(pInfo);
 
                 //Send Mails
+                
             }
             else
             {

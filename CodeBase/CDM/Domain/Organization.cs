@@ -20,6 +20,8 @@ namespace CDM.Domain
         public virtual string Country { get; set; }
         //public virtual string SalesTaxNumber { get; set; }
         //public virtual string VATNumber { get; set; }
+        public virtual bool MarkAsDeleted { get; set; }
+
     }
 
     class OrganizationMap : BaseEntityMap<Organization, int>
@@ -36,6 +38,7 @@ namespace CDM.Domain
             this.Property<string>(x => x.City, mp => { mp.Column("City"); mp.NotNullable(true); });
             this.Property<string>(x => x.State, mp => { mp.Column("State"); mp.NotNullable(true); });
             this.Property<string>(x => x.Country, mp => { mp.Column("Country"); mp.NotNullable(true); });
+            this.Property<bool>(x => x.MarkAsDeleted, mp => { mp.Column("MarkAsDeleted"); });
         }
 
     }
