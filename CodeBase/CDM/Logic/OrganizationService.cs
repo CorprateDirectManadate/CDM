@@ -18,9 +18,10 @@ namespace CDM.Logic
             _orgRepo = orgRepo;
         }
 
-        public void CreateOrganization(Organization organization)
+        public int CreateOrganization(Organization organization)
         {
             _orgRepo.Add(organization);
+            return organization.Id;
         }
     }
 }

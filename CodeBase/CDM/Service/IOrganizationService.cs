@@ -9,6 +9,6 @@ namespace CDM.Service
 {
     public interface IOrganizationService
     {
-        void CreateOrganization(Organization organization);
+        int CreateOrganization(Organization organization);
     }
 }
