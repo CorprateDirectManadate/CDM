@@ -57,11 +57,11 @@
     </Reference>
     <Reference Include="Autofac.Integration.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ScoffiedLibrary\bin\Debug\Autofac.Integration.WebApi.dll</HintPath>
+      <HintPath>D:\Improve\CDM\CDM\RequiredDLL\Autofac.Integration.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="AutoNise, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\RequiredDLL\AutoNise.dll</HintPath>
+      <HintPath>D:\Improve\CDM\CDM\RequiredDLL\AutoNise.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

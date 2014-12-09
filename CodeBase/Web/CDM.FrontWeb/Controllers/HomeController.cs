@@ -7,31 +7,31 @@ namespace CDM.FrontWeb.Controllers
 {
     public class HomeController : Controller //BaseController
     {
-         private readonly IDateTimeHelper _dateTime;
-         private readonly ICurrencyService _CurrencyService;
-         public HomeController(IDateTimeHelper dateTime, ICurrencyService currency)
+        private readonly IDateTimeHelper _dateTime;
+        private readonly ICurrencyService _CurrencyService;
+        public HomeController(IDateTimeHelper dateTime, ICurrencyService currency)
         {
             this._dateTime = dateTime;
-             this._CurrencyService = currency;
+            this._CurrencyService = currency;
         }
-         //public HomeController()
-         //{
-         //    this._dateTime = EngineContext.Resolve<IDateTimeHelper>();
+        //public HomeController()
+        //{
+        //    this._dateTime = EngineContext.Resolve<IDateTimeHelper>();
 
-         //}
+        //}
         public ActionResult Index()
         {
-        
+
             return View();
         }
 
         public ActionResult About()
         {
-          //  var ITransactionAttributeSettings = EngineContext.Current.Resolve<ITransactionAttributeSettings>();
-          //ITransactionAttributeSettings.Testing();
-       //      this._CurrencyService.DoTrans();
+            //  var ITransactionAttributeSettings = EngineContext.Current.Resolve<ITransactionAttributeSettings>();
+            //ITransactionAttributeSettings.Testing();
+            //      this._CurrencyService.DoTrans();
 
-           // var Engine = EngineContext.Current.Resolve<IAsyncTask>();
+            // var Engine = EngineContext.Current.Resolve<IAsyncTask>();
             //Engine.RunDelayed<ICurrencyService>(x => x.RunTask(), TimeSpan.FromSeconds(2));
 
             //Engine.RunCronJob<ICurrencyService>(x => x.RunTask(), "* * * * *");
@@ -40,11 +40,11 @@ namespace CDM.FrontWeb.Controllers
             //_setup.SetupWorkflow(new Workflow
             //{
             //    Name = "Olawale",OnRejection = Operator.OnRejection.StartWorkflowAgain, MaxLevel = 8
-                
+
 
             //});
-           var hh =  this._CurrencyService.GetCurrencies(-1);
-           // list = _studentRepository.GetAll().Fetch(s => s.Mark);
+            var hh = this._CurrencyService.GetCurrencies(-1);
+            // list = _studentRepository.GetAll().Fetch(s => s.Mark);
             //И Так: list=EagerFetch.Fetch(_studentRepository.GetAll(),s => s.Mark);
             ViewBag.Message = "Your application description page." +
                               this._CurrencyService.GetCurrencies(1).FirstOrDefault().Country;
@@ -61,10 +61,14 @@ namespace CDM.FrontWeb.Controllers
         {
             return PartialView();
         }
-       
+        public ActionResult DashBoard()
+        {
+            return PartialView();
+        }
+      
         public ActionResult Contact()
         {
-            
+
             //Roles.CreateRole("Agency");
             //Roles.CreateRole("Organization");
             //Roles.CreateRole("SystemAdmin");
