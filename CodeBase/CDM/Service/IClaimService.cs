@@ -7,8 +7,8 @@ using CDM.Domain;
 
 namespace CDM.Service
 {
-    public interface IHotelService
+    public interface IClaimService
     {
-        int CreateOrganization(Hotel hotel);
+        Claim GetClaim();
     }
 }

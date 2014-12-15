@@ -75,6 +75,13 @@ namespace CDM.Logic
             }
 
         }
+        public PersonalInformation GetPersonalInformation(string email)
+        {
+            var query = from p in _personalInformation.Table
+                        where p.Email.ToLower() == email.ToLower()
+                        select p;
 
+            return query.FirstOrDefault();
+        }
     }
 }

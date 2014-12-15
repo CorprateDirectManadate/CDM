@@ -10,5 +10,6 @@ namespace CDM.Service
     public interface IUserService
     {
         string CreateUser(PersonalInformation pInfo, string password);
+        PersonalInformation GetPersonalInformation(string email);
     }
 }

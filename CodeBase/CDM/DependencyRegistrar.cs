@@ -19,12 +19,12 @@ namespace CDM
     
       public void Register(Autofac.ContainerBuilder builder, AutoNise.Core.ITypeFinder typeFinder)
       {
-          
           builder.RegisterType<CurrencyService>().As<ICurrencyService>().InstancePerLifetimeScope();
           builder.RegisterType<UserService>().As<IUserService>().InstancePerLifetimeScope();
           builder.RegisterType<OrganizationService>().As<IOrganizationService>().InstancePerLifetimeScope();
+          builder.RegisterType<ClaimService>().As<IClaimService>().InstancePerLifetimeScope();
+          builder.RegisterType<HotelService>().As<IHotelService>().InstancePerLifetimeScope();
 
-      
       }
 
       public int Order
