@@ -12,6 +12,10 @@ namespace CDM.FrontWeb.Controllers
         public ActionResult Index()
         {
             return PartialView();
+        } 
+        public ActionResult HotelList()
+        {
+            return PartialView();
         }
     }
 }

@@ -13,5 +13,17 @@ namespace CDM.FrontWeb.Controllers
         {
             return PartialView();
         }
+        public ActionResult Flights_Detail()
+        {
+            return PartialView();
+        } 
+        public ActionResult Flights_Booking()
+        {
+            return PartialView();
+        } 
+        public ActionResult Flights_ThankYou()
+        {
+            return PartialView();
+        }
     }
 }

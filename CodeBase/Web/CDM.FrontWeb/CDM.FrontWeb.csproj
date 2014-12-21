@@ -1296,6 +1296,9 @@
     <Content Include="Scripts\controllers\carController.js" />
     <Content Include="Scripts\controllers\cruiseController.js" />
     <Content Include="Scripts\controllers\dashboardController.js" />
+    <Content Include="Scripts\controllers\flight_DetailController.js" />
+    <Content Include="Scripts\controllers\flight_BookingController.js" />
+    <Content Include="Scripts\controllers\flight_ThankYouController.js" />
     <Content Include="Scripts\controllers\flightController.js" />
     <Content Include="Scripts\controllers\hotelController.js" />
     <Content Include="Scripts\js\bootstrap.js" />
@@ -2164,6 +2167,10 @@
     <Content Include="Views\Flight\Index.cshtml" />
     <Content Include="Views\Hotel\Index.cshtml" />
     <Content Include="Views\Booking\Index.cshtml" />
+    <Content Include="Views\Hotel\HotelList.cshtml" />
+    <Content Include="Views\Flight\Flights_Detail.cshtml" />
+    <Content Include="Views\Flight\Flights_Booking.cshtml" />
+    <Content Include="Views\Flight\Flights_ThankYou.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

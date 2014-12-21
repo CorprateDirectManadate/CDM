@@ -25,18 +25,18 @@
                 </ul>
                 <ul class="quick-menu pull-right hidden-mobile">
                     <li>
-                        <a href="/#!/Booking">Group Booking</a>
+                        <a ng-href="/#!/Booking">Group Booking</a>
                     </li>
                     <li class="ribbon menu-color-blue">
-                        <a href="/#!/Dashboard">{{CurrentUser}}</a>
+                        <a ng-href="/#!/Dashboard">{{CurrentUser}}</a>
                         <ul class="menu mini uppercase">
-                            <li><a href="/#!/Dashboard" class="location-reload">Dashboard</a></li>
-                            <li><a href="/#!/Dashboard" data-target="#profile" data-toggle="tab" class="location-reload">Profile</a></li>
-                            <li><a href="/#!/Dashboard" data-target="#booking" data-toggle="tab" class="location-reload">Bookings</a></li>
-                            <li><a href="/#!/Dashboard" data-target="#wishlist" data-toggle="tab" class="location-reload">wishlist</a></li>
-                            <li><a href="/#!/Dashboard" data-target="#travel-stories" data-toggle="tab" class="location-reload">travel stories</a></li>
-                            <li><a href="/#!/Dashboard" data-target="#settings" data-toggle="tab" class="active location-reload">settings</a></li>
-                            <li><a href="" ng-click="logout()" @*class="soap-popupbox"*@>LOGOUT</a></li>
+                            <li><a ng-href="/#!/Dashboard" class="location-reload">Dashboard</a></li>
+                            <li><a ng-href="/#!/Dashboard" data-target="#profile" data-toggle="tab" class="location-reload">Profile</a></li>
+                            <li><a ng-href="/#!/Dashboard" data-target="#booking" data-toggle="tab" class="location-reload">Bookings</a></li>
+                            <li><a ng-href="/#!/Dashboard" data-target="#wishlist" data-toggle="tab" class="location-reload">wishlist</a></li>
+                            <li><a ng-href="/#!/Dashboard" data-target="#travel-stories" data-toggle="tab" class="location-reload">travel stories</a></li>
+                            <li><a ng-href="/#!/Dashboard" data-target="#settings" data-toggle="tab" class="active location-reload">settings</a></li>
+                            <li><a ng-href="" ng-click="logout()" @*class="soap-popupbox"*@>LOGOUT</a></li>
 
                         </ul>
                     </li>
@@ -88,13 +88,13 @@
                         <li class="menu-item-has-children">
                             <a href="/#!/Flights">Flights</a>
                             <ul>
-                                <li><a href="flight-index.html">Home Flights</a></li>
-                                <li><a href="flight-list-view.html">List View</a></li>
-                                <li><a href="flight-grid-view.html">Grid View</a></li>
-                                <li><a href="flight-block-view.html">Block View</a></li>
-                                <li><a href="flight-detailed.html">Detailed</a></li>
-                                <li><a href="flight-booking.html">Booking</a></li>
-                                <li><a href="flight-thankyou.html">Thank You</a></li>
+                                <li><a href="/#!/Flights">Home Flights</a></li>
+                                @*<li><a href="flight-list-view.html">List View</a></li>
+                                    <li><a href="flight-grid-view.html">Grid View</a></li>
+                                    <li><a href="flight-block-view.html">Block View</a></li>*@
+                                <li><a href="/#!/Flights_Detail">Detailed</a></li>
+                                <li><a href="/#!/Flights_Booking">Booking</a></li>
+                                <li><a href="/#!/Flights_ThankYou">Thank You</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
